@@ -40,7 +40,7 @@ Current version is tested on:
 ### Dataset Preparation
 
 - We use CASME II, SAMM and SMIC-HS for training.
-  - Magnify the original frames according the paper, you can use any techniques such as Eulerian Video Magnification, Lagrangian motion magnification or [Learning-based Magnification](https://openaccess.thecvf.com/content_ECCV_2018/papers/Tae-Hyun_Oh_Learning-based_Video_Motion_ECCV_2018_paper.pdf). We recommend you to use the last one since it can produce less artifacts.
+  - Magnify the original frames according to the paper, you can use any techniques such as Eulerian Video Magnification, Lagrangian motion magnification or [Learning-based Magnification](https://openaccess.thecvf.com/content_ECCV_2018/papers/Tae-Hyun_Oh_Learning-based_Video_Motion_ECCV_2018_paper.pdf). We recommend you to use the last one since it can produce less artifacts.
 - To reduce computational cost, extract the features with some former layers of the Resnet-18 and use the features for training and testing. The model is pre-trained on FER+.
 - Demo of magnified images:
 
