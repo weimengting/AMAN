@@ -61,4 +61,4 @@ If you find this code useful for your research, please consider citing the follo
 }
 ```
 
-If you have any confusions, feel free to contact weimengting@seu.edu.cn.
+If you have any confusions about the code feel free to contact weimengting@seu.edu.cn.
