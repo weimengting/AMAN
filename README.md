@@ -4,6 +4,10 @@
 
 In ICASSP 2022 (Download the paper [[here](https://ieeexplore.ieee.org/document/9747232)])
 
+## New!
+**We add the magnification model here!**
+
+
 ### Directory Structure
 
 ```text
@@ -46,9 +50,18 @@ Current version is tested on:
 
 <img src="./figs/magnification.gif">
 
+### Magnification
+
+We provide a pre-trained magnification model here. Go inside the *mag_imple* directory and simply implement:
+
+`python mag.py`
+
+They you can see the magnified results in the *output* directory. 
+
+
 ### Citation
 
-If you find this code useful for your research, please consider citing the following paper:
+If you find this code useful for your research, please consider citing the following papers:
 
 ```latex
 @inproceedings{wei2022novel,
@@ -59,6 +72,13 @@ If you find this code useful for your research, please consider citing the follo
   year={2022},
   organization={IEEE}
 }
+@inproceedings{oh2018learning,
+  title={Learning-based video motion magnification},
+  author={Oh, Tae-Hyun and Jaroensri, Ronnachai and Kim, Changil and Elgharib, Mohamed and Durand, Fr'edo and Freeman, William T and Matusik, Wojciech},
+  booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
+  pages={633--648},
+  year={2018}
+}
 ```
 
-If you have any confusions about the code feel free to contact weimengting@seu.edu.cn.
+If you have any confusions about the code feel free to contact [mengting.wei@oulu.fi]().
