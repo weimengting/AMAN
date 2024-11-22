@@ -45,7 +45,7 @@ Current version is tested on:
 
 - We use CASME II, SAMM and SMIC-HS for training.
   - Magnify the original frames according to the paper, you can use any techniques such as Eulerian Video Magnification, Lagrangian motion magnification or [Learning-based Magnification](https://openaccess.thecvf.com/content_ECCV_2018/papers/Tae-Hyun_Oh_Learning-based_Video_Motion_ECCV_2018_paper.pdf). We recommend you to use the last one since it can produce less artifacts.
-- To reduce computational cost, extract the features with some former layers of the Resnet-18 and use the features for training and testing. The model is pre-trained on FER+. You can find the pre-trained model in the [assets](./assets/Resnet18_FER+_pytorch.pth.tar) directory.
+- To reduce computational cost, extract the features with some former layers of the Resnet-18 and use the features for training and testing. The model is pre-trained on FER+. You can find the pre-trained model in the [assets](./assets) directory.
 - Demo of magnified images:
 
 <img src="./figs/magnification.gif">
